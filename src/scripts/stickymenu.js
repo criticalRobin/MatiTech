@@ -13,12 +13,14 @@ document.addEventListener('DOMContentLoaded', function () {
       ud_header.classList.add('absolute', 'bg-transparent', 'z-40');
     }
 
-    if(logo.length) {
+    if (logo.length) {
       // === logo change
       if (ud_header.classList.contains('sticky-header')) {
-        document.querySelector(".header-logo").src = '/assets/logo/logo.svg';
+        document.querySelector('.header-logo').src =
+          '/assets/logo/logo-black-hd-removebg-preview.png';
       } else {
-        document.querySelector('.header-logo').src = '/assets/logo/logo-white.svg';
+        document.querySelector('.header-logo').src =
+          '/assets/logo/pixelcut-white-hd-removebg-preview.png';
       }
     }
 
@@ -27,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function () {
         // === logo change
         if (ud_header.classList.contains('sticky-header')) {
           document.querySelector('.header-logo').src = '/assets/logo/logo-white.svg';
-        } 
+        }
       }
     }
 
